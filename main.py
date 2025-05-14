@@ -76,7 +76,7 @@ def predict():
         # Return prediction
         response = {
             'prediction': int(prediction[0]),
-            'survived': bool(prediction[0])
+            'survived': bool(prediction[0]),
         }
         
         if probabilities:
